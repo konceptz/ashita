@@ -1,0 +1,326 @@
+<ashitacast>
+	<settings>
+		<buffupdate>false</buffupdate>
+		<statusupdate>false</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+	<sets>
+		<set name="basic">
+			<head>Ryou Somen +1</head>
+			<body>Sakonji domaru +3</body>
+			<hands>Macabre Gaunt. +1</hands>
+			<legs>Ryuo Hakama</legs>
+			<feet>Rao Sune-Ate</feet>
+			<neck>Ganesha's Mala</neck>
+			<waist>Anguinus Belt</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Cessange Earring</ear2>
+			<ring1>Niqmaddu ring</ring1>
+			<ring2>IIbrat ring</ring2>
+			<back>Bleating Mantle</back>
+		</set>
+		<set name="Town">
+			<main>Himetsuruichimonji</main>
+			<sub>Bloodrain Strap</sub>
+			<range>Cibitshavore</range>
+			<ammo>Kabura Arrow</ammo>
+			<head>Ryuo Somen</head>
+			<body>Kasuga Domaru +1</body>
+			<hands>Ryuo Tekko</hands>
+			<legs>Kasuga Haidate +1</legs>
+			<feet>Ryuo Sune-Ate</feet>
+			<neck>Ganesha's Mala</neck>
+			<waist>Windbuffet Belt +1</waist>
+			<lear>Cryptic Earring</lear>
+			<rear>Infused Earring</rear>
+			<lring>patricius Ring</lring>
+			<rring>Defending Ring</rring>
+			<back>Smertrios's Mantle</back> <!-- WS-->
+		</set>
+		<set name="TP-Acc0">
+			<head>Ryuo Somen</head>
+			<body>Kasuga Domaru +1</body>
+			<hands>Ryuo Tekko</hands>
+			<legs>Ryuo Hakama</legs>
+			<feet>Ryuo Sune-Ate</feet>
+			<neck>Subtlety Spec.</neck>
+			<waist>Sarissaphoroi belt</waist>
+			<lear>Ishvara Earring</lear>
+			<rear>Cessance Earring</rear>
+			<lring>patricius Ring</lring>
+			<rring>Cacoethic Ring +1</rring>
+			<back>Ground. Mantle +1</back>
+		</set>
+		<set name="TP-tp">
+			<head>Ryuo Somen</head>
+			<body>Kasuga Domaru +1</body>
+			<hands>Ryuo Tekko</hands>
+			<legs>Kasuga Haidate +1</legs>
+			<feet>Ryuo Sune-Ate</feet>
+			<neck>Ganesha's Mala</neck>
+			<waist>Sarissaphoroi belt</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Cessange Earring</ear2>
+			<ring1>Niqmaddu ring</ring1>
+			<ring2>IIbrat ring</ring2>
+			<back augment="S2554623270518575">Smertrios's Mantle</back> <!-- TP -->
+		</set>
+		<set name="TP-Acc1">
+			<head>Ryuo Somen</head>
+			<body>Sakonji domaru +3</body>
+			<hands>Ryuo Tekko</hands>
+			<legs>Ryuo Hakama</legs>
+			<feet>Ryuo Sune-ate</feet>
+			<neck>Ganesha's Mala</neck>
+			<waist>Sarissaphoroi belt</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Cessange Earring</ear2>
+			<ring1>Niqmaddu ring</ring1>
+			<ring2>IIbrat ring</ring2>
+			<back augment="S2554623270518575">Smertrios's Mantle</back> <!-- TP -->
+		</set>
+		<set name="Fudo">
+			<head>Ryou Somen +1</head>
+			<body>Sakonji domaru +3</body>
+			<hands>Ryuo Tekko</hands>
+			<legs>Hiza. Hizayoroi +1</legs>
+			<feet>Rao Sune-Ate</feet>
+			<neck>Fotia gorget</neck>
+			<waist>Caudata Belt</waist>
+			<lear>Ishvara Earring</lear>
+			<rear>Cessance Earring</rear>
+			<if e_time=">17.01|<6.59"><equip><rear>Lugra Earring +1</rear></equip></if>
+			<lring>Karieyh ring</lring>
+			<rring>Niqmaddu ring</rring>
+			<back augment="S8136641508812818759">Smertrios's Mantle</back> <!-- WS-->
+		</set>
+		<set name="Shoha">
+			<head>Valorous Mask</head>
+			<body>Sakonji domaru +3</body>
+			<hands>Ryuo Tekko +1</hands>
+			<legs>Hiza. Hizayoroi +1</legs>
+			<feet>Valorous Greaves</feet>
+			<neck>Fotia gorget</neck>
+			<waist>Caudata Belt</waist>
+			<lear>Ishvara Earring</lear>
+			<rear>Cessance Earring</rear>
+			<if e_time=">17.01|<6.59"><equip><rear>Lugra Earring +1</rear></equip></if>
+			<lring>Ifrit Ring +1</lring>
+			<rring>Shukuyu Ring</rring>
+			<back>Smertrios's Mantle</back> <!-- WS-->
+		</set>
+		<set name="Regen">
+			<head>Rao Kabuto</head>
+			<neck>Bathy Choker +1</neck>
+			<lear>Cryptic Earring</lear>
+			<rear>Infused Earring</rear>
+			<body>Sakonji domaru +3</body>
+			<hands>Ryuo Tekko</hands>
+			<lring>Defending Ring</lring>
+			<rring>Shadow Ring</rring>
+			<back>Yokaze Mantle</back>
+			<waist>Anguinus Belt</waist>
+			<legs>Rao Haidate</legs>
+			<feet>Rao Sune-Ate</feet>
+		</set>
+		<set name="Meditate">
+			<head>Wakido Kabuto +1</head>
+			<body>Sakonji domaru +3</body>
+			<hands>Wakido Kote +2</hands>
+			<legs>Ryuo Hakama</legs>
+			<feet>Rao Sune-Ate</feet>
+			<neck>Ganesha's Mala</neck>
+			<waist>Anguinus Belt</waist>
+			<lear>Ishvara Earring</lear>
+			<rear>Cessance Earring</rear>
+			<lring>patricius Ring</lring>
+			<rring>Cacoethic Ring +1</rring>
+			<back augment="S2554632704" >Smertrios's Mantle</back> <!-- WS-->
+		</set>
+		<set name="Hasso">
+			<!--<head>Wakido Kabuto +1</head>
+			<body>Sakonji domaru +3</body>
+			<hands>Sakonji Kote</hands>
+			<legs>Ryuo Hakama</legs>
+			<feet>Rao Sune-Ate</feet>
+			<neck>Ganesha's Mala</neck>
+			<waist>Anguinus Belt</waist>
+			<lear>Ishvara Earring</lear>
+			<rear>Cessance Earring</rear>
+			<lring>patricius Ring</lring>
+			<rring>Cacoethic Ring +1</rring>
+			<back augment="S2554632704" >Smertrios's Mantle</back> --> <!-- WS--> 
+			<hands>Wakido Kote +2</hands>
+		</set>
+		<set name="Sho">
+			<head>Ryou Somen +1</head>
+			<body>Sakonji domaru +3</body>
+			<hands>Ryuo Tekko</hands>
+			<legs>Hiza. Hizayoroi +1</legs>
+			<feet>Rao Sune-Ate</feet>
+			<neck>Fotia gorget</neck>
+			<waist>Caudata Belt</waist>
+			<lear>Ishvara Earring</lear>
+			<rear>Cessance Earring</rear>
+			<if e_time=">17.01|<6.59"><equip><lear>Lugra Earring</lear></equip></if>
+			<if e_time=">17.01|<6.59"><equip><rear>Lugra Earring +1</rear></equip></if>
+			<lring>Ifrit Ring +1</lring>
+			<rring>Shukuyu Ring</rring>
+			<back>Smertrios's Mantle</back> <!-- WS-->
+		</set>
+		<set name="PDT">
+			<head>Genmei Kabuto</head>
+			<neck>Twilight Torque</neck>
+			<body>Sakonji domaru +3</body>
+			<hands>Otronif Gloves +1</hands>
+			<lring>Defending Ring</lring>
+			<back>Xucau Mantle</back>
+			<waist>Flume Belt</waist>
+			<legs>Otronif Brais +1</legs>
+			<feet>Otronif Boots +1</feet>
+		</set>
+		<set name="MDT"><!--needs 23-->
+			<ammo>Demonry Stone</ammo>
+			<head>Genmei Kabuto</head>
+			<neck>Twilight Torque</neck>
+			<lear>Etiolation Earring</lear>
+			<rear>Merman's Earring</rear>
+			<hands>Otronif Gloves +1</hands>
+			<lring>Defending Ring</lring>
+			<rring>Shadow Ring</rring>
+			<back>Xucau Mantle</back>
+			<feet>Otronif Boots +1</feet>
+		</set>
+		
+		<include>
+		<item>Cibitshavore</item>
+		</include>
+	</sets>
+	<variables>
+		<var name="Set">Acc0</var>
+	</variables>
+	<inputcommands>
+		<cmd input="/trigger2">
+			<gearlock delay="5" />
+			<equip set="PDT" />
+		</cmd>
+		<cmd input="/trigger3">
+			<gearlock delay="5" />
+			<equip set="MDT" />
+		</cmd>
+		<cmd input="/changeset ">
+			<setvar name="Set" value="%arg1" />
+			<addtochat color="159">TP Set: $Set</addtochat>
+			<doidlegear />
+		</cmd>
+	</inputcommands>
+	<idlegear>
+		<equip set="Stand" />
+		<if p_status="idle"><equip set="Regen" /></if>
+		<if eq_back="Mecisto. Mantle">
+            <equip lock="true">
+                <back>Mecisto. Mantle</back>                
+            </equip>
+		</if>
+		<if buffactive="579">
+			<equip>
+			<back>Mecisto. Mantle</back>
+			</equip>
+		</if>
+		<if eq_rring="Trizek Ring">
+            <equip lock="true">
+                <rring>Trizek Ring</rring>                
+            </equip>
+		</if>
+		<if eq_rring="Capacity Ring">
+            <equip lock="true">
+                <rring>Capacity Ring</rring>                
+            </equip>
+		</if>
+		<if eq_rring="Vocation Ring">
+            <equip lock="true">
+                <rring>Vocation Ring</rring>                
+            </equip>
+		</if>
+		<if eq_rring="Facility Ring">
+            <equip lock="true">
+                <rring>Facility Ring</rring>                
+            </equip>
+		</if>
+		<if p_status="engaged">
+			<equip set="TP-tp" />
+			<if e_time=">17.01|<6.59"><equip><lear>Lugra Earring</lear></equip></if>
+			<if e_time=">17.01|<6.59"><equip><rear>Lugra Earring +1</rear></equip></if>
+		</if>
+		<if P_hp="<480">
+			<equip set="Twilight" />
+		</if>
+		<if buffactive="Madrigal">
+			<equip>
+				<rear>Kuwunga Earring</rear>
+				<lear>Brutal Earring</lear>
+				<if e_time=">17.01|<6.59"><equip><lear>Lugra Earring</lear></equip></if>
+				<if e_time=">17.01|<6.59"><equip><rear>Lugra Earring +1</rear></equip></if>
+			</equip>
+		</if>
+		<if eq_rring="Warp Ring">
+			<equip lock="true">
+				<rring>Warp Ring</rring>				
+			</equip>
+		</if>
+		<elseif eq_lring="Warp Ring">
+			<equip lock="true">
+				<lring>Warp Ring</lring>				
+			</equip>
+		</elseif>
+		<if t_name="Apex*">
+			<equip set="TP-Acc0" />
+		</if>
+		<if t_name="Eschan*">
+			<equip set="TP-tp" />
+			<if e_time=">17.01|<6.59"><equip><lear>Lugra Earring</lear></equip></if>
+				<if e_time=">17.01|<6.59"><equip><rear>Lugra Earring +1</rear></equip></if>
+		</if>
+		<if t_name="Ark*">
+			<equip set="TP-Emnity" />
+			<if e_time=">17.01|<6.59"><equip><lear>Lugra Earring</lear></equip></if>
+				<if e_time=">17.01|<6.59"><equip><rear>Lugra Earring +1</rear></equip></if>
+		</if>
+		<if t_name="*Yovra">
+			<equip set="TP-fullset" />
+			<if e_time=">17.01|<6.59"><equip><lear>Lugra Earring</lear></equip></if>
+				<if e_time=">17.01|<6.59"><equip><rear>Lugra Earring +1</rear></equip></if>
+		</if>
+		<if t_name="Warder*">
+			<equip set="TP-PDT" />
+			<if e_time=">17.01|<6.59"><equip><lear>Lugra Earring</lear></equip></if>
+				<if e_time=">17.01|<6.59"><equip><rear>Lugra Earring +1</rear></equip></if>
+		</if>
+		<if e_area="Ru'Lude Gardens|Nashmau|Tavnazian Safehold|Port*|Bastok*|Windurst*|*San d'Oria|*Jeuno|*Whitegate|*Adoulin|Selbina|Mhaura|Norg">        
+            <equip set="Town" />
+		</if>
+	</idlegear>
+	<preranged>
+	</preranged>
+	<midranged>
+	</midranged>
+	<premagic>
+	</premagic>
+	<midmagic>
+	</midmagic>
+	<jobability>
+		<if ad_name="Hasso"><equip set="Hasso"/></if>
+		<if ad_name="Meditate"><equip set="Meditate" /></if>
+		<if ad_name="Third Eye"><equip set="Third" /></if>
+		<!--<if ad_name="Provoke"><equip set="TP-Emnity" /></if>-->
+	</jobability>
+	<weaponskill>
+		<if ad_name="Tachi: Fudo"><equip set="Fudo" /></if>
+		<if ad_name="Tachi: Shoha"><equip set="Shoha" /></if>
+		<if e_time=">17.01|<6.59"><equip><lear>Lugra Earring</lear></equip></if>
+		<if e_time=">17.01|<6.59"><equip><rear>Lugra Earring +1</rear></equip></if>
+	</weaponskill>
+</ashitacast>
+
+

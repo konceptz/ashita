@@ -1,0 +1,284 @@
+<ashitacast>
+	<settings> <!--Contains settings specific to this xml, must be set to true/false to override default-->
+		<buffupdate>true</buffupdate> <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+		<statusupdate>true</statusupdate> <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+		<hpupdate>false</hpupdate> <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+		<autoupdate>true</autoupdate> <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+	</settings>
+    
+	<sets>
+		<set name="Stand">
+			<sub>Utu Grip</sub>
+			<ammo>Staunch Tathlum</ammo>
+			<head>Sulevia's Mask +2</head>
+			<body>Sulevia's Plate. +2</body>
+			<hands>Sulev. Gauntlets +2</hands>
+			<legs>Sulevi. Cuisses +2</legs>
+			<feet>Hermes' Sandals</feet>
+			<neck>Loricate Torque +1</neck>
+			<waist>Chuq'aba Belt</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Cessance Earring</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2>Vocane Ring</ring2>
+			<back>Solemnity Cape</back>
+		</set>
+		<set name="TP-Chan-Acc0">
+			<sub>Utu Grip</sub>
+			<ammo>Yetshila</ammo>
+			<head>Argosy celata +1</head>
+			<body augment="S7257234024864428697">Valorous Mail</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs augment="S96864943659031">Odyssean Cuisses</legs>
+			<feet augment="S4618016881871112313">Valorous Greaves</feet>
+			<neck>Lissome Necklace</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Cessance Earring</ear2>
+			<ring1>Petrov Ring</ring1>
+			<ring2>Chirich Ring</ring2>
+			<back augment="S7926617608038418575">Cichol's Mantle</back>
+		</set>
+		<set name="TP-Chan-Acc1">
+			<main>Chango</main>
+			<sub>Utu Grip</sub>
+			<ammo>Seeth. Bomblet +1</ammo>
+			<head augment="S6377612513901222551">Valorous Mask</head>
+			<body augment="S7257234024864428697">Valorous Mail</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs augment="S96864943659031">Odyssean Cuisses</legs>
+			<feet augment="S1101672806406828695">Valorous Greaves</feet>
+			<neck>Combatant's Torque</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Cessance Earring</ear2>
+			<ring1>Petrov Ring</ring1>
+			<ring2>Chirich Ring</ring2>
+			<back augment="S7926617608038418575">Cichol's Mantle</back>
+		</set>
+		<set name="TP-Rag-Acc0">
+			<main>Ragnarok</main>
+			<sub>Utu Grip</sub>
+			<ammo>Yetshila</ammo>
+			<head></head>
+			<body augment="D15444865986818">Emicho Haubert</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs augment="S96864943659031">Odyssean Cuisses</legs>
+			<feet augment="S4618016881871112313">Valorous Greaves</feet>
+			<neck>Lissome Necklace</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Cessance Earring</ear2>
+			<ring1>Petrov Ring</ring1>
+			<ring2>Chirich Ring</ring2>
+			<back augment="S7926617608038418575">Cichol's Mantle</back>
+		</set>
+		<set name="TP-Rag-Acc1">
+			<main>Ragnarok</main>
+			<sub>Utu Grip</sub>
+			<ammo>Yetshila</ammo>
+			<head>Argosy celata +1</head>
+			<body augment="D15444865986818">Emicho Haubert</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs augment="S96864943659031">Odyssean Cuisses</legs>
+			<feet augment="S4618016881871112313">Valorous Greaves</feet>
+			<neck>Lissome Necklace</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Cessance Earring</ear2>
+			<ring1>Petrov Ring</ring1>
+			<ring2>Chirich Ring</ring2>
+			<back augment="S7926617608038418575">Cichol's Mantle</back>
+		</set>
+		<set name="DT">
+			<sub>Utu Grip</sub>
+			<ammo>Staunch Tathlum</ammo>
+			<head>Sulevia's Mask +2</head>
+			<body>Sulevia's Plate. +2</body>
+			<hands>Sulev. Gauntlets +2</hands>
+			<legs>Sulevi. Cuisses +2</legs>
+			<feet>Sulev. Leggings +2</feet>
+			<neck>Loricate Torque +1</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Cessance Earring</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2>Vocane Ring</ring2>
+			<back>Reiki Cloak</back>
+		</set>
+		<set name="Upheaval-Acc0">
+			<ammo>Knobkierrie</ammo>
+			<head>Sulevia's Mask +2</head>
+			<body>Sulevia's Plate. +2</body>
+			<hands>Sulev. Gauntlets +2</hands>
+			<legs>Sulevi. Cuisses +2</legs>
+			<feet>Sulev. Leggings +2</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Grunfeld Rope</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Cessance Earring</ear2>
+			<ring1>Petrov Ring</ring1>
+			<ring2>Shukuyu Ring</ring2>
+			<back augment="S7926617608038418575">Cichol's Mantle</back>
+		</set>
+		<set name="Chan-Acc0">
+			<ammo>Knobkierrie</ammo>
+			<head>Argosy celata +1</head>
+			<body augment="D15427686107583">Argosy Hauberk +1</body>
+			<hands augment="D2710170112959">Argosy Mufflers +1</hands>
+			<legs augment="D20925277801407">Argosy Breeches +1</legs>
+			<feet>Boii Calligae +1</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Cessance Earring</ear2>
+			<ring1>Ifrit Ring +1</ring1>
+			<ring2>Shukuyu Ring</ring2>
+			<back augment="S255463270418473">Cichol's Mantle</back>
+		</set>
+		<set name="Resolution-Acc0">
+			<ammo>Knobkierrie</ammo>
+			<head augment="D20925277801407">Valorous Mask</head>
+			<body augment="D15427686107583">Argosy Hauberk +1</body>
+			<hands augment="D2710170112959">Argosy Mufflers +1</hands>
+			<legs augment="D20925277801407">Argosy Breeches +1</legs>
+			<feet augment="D20925277801407">Argosy Sollerets +1</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Fotia Belt</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Cessance Earring</ear2>
+			<ring1>Ifrit Ring +1</ring1>
+			<ring2>Shukuyu Ring</ring2>
+			<back augment="S7926617608038418575">Cichol's Mantle</back>
+		</set>
+		<set name="Scourge-Acc0">
+			<ammo>Seeth. Bomblet +1</ammo>
+			<head>Sulevia's Mask +2</head>
+			<body>Sulevia's Plate. +2</body>
+			<hands>Sulev. Gauntlets +2</hands>
+			<legs augment="D20925277801407">Argosy Breeches +1</legs>
+			<feet>Sulev. Leggings +2</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Grunfeld Rope</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Cessance Earring</ear2>
+			<ring1>Ifrit Ring +1</ring1>
+			<ring2>Shukuyu Ring</ring2>
+			<back augment="S7926617608038418575">Cichol's Mantle</back>
+		</set>
+		<set name="Precast">
+			<ammo>Sapience Orb</ammo>
+			<body augment="S44088385372183">Odyss. Chestplate</body>
+			<hands augment="S1237184143319274236">Leyline Gloves</hands>
+			<legs augment="D5171236116500">Eschite Cuisses</legs>
+			<feet augment="S26960055785507">Odyssean Greaves</feet>
+			<neck>Baetyl Pendant</neck>
+			<ear1>Loquac. Earring</ear1>
+			<ear2>Etiolation Earring</ear2>
+			<ring1>Prolix Ring</ring1>
+		</set>
+		<include>
+		</include>
+	</sets>
+	<variables>
+		<var name="Set">Acc0</var>
+	</variables>
+	<inputcommands>
+		<cmd input="/dt">
+			<gearlock delay="5" />
+			<equip set="DT" />
+            <command>/ac disable</command>
+		</cmd>
+        
+		<cmd input="/enable">
+            <command>/ac enable</command>
+		</cmd>
+		<cmd input="/changeset ">
+			<setvar name="Set" value="%arg1" />
+			<addtochat color="159">TP Set: $Set</addtochat>
+			<doidlegear />
+		</cmd>
+		<cmd input="/changeweapon">
+			<if eq_main="Chango">
+				<equip><main>Ragnarok</main></equip>
+			</if>
+			<if eq_main="Ragnarok">
+				<equip><main>Bravura</main></equip>
+			</if>
+			<if eq_main="Bravura">
+				<equip><main>Chango</main></equip>
+			</if>
+		</cmd>
+	</inputcommands>
+	<idlegear>
+		<if p_status="engaged">
+			<if eq_main="Chango"><equip set="TP-Chan-$Set" /></if>
+			<elseif eq_main="ragnarok"><equip set="TP-Rag-$Set" /></elseif>
+			<else><equip set="TP-$Set" /></else>
+		</if>
+		<else><equip set="Stand" /></else>
+
+         <if eq_rring="Trizek Ring">
+        <equip lock="true">
+             <rring>Trizek Ring</rring>              
+            </equip>
+       </if>
+       <if eq_rring="Capacity Ring">
+            <equip lock="true">
+             <rring>Capacity Ring</rring>              
+            </equip>
+       </if>
+       <if eq_rring="Dim. Ring*">
+            <equip lock="true">
+             <rring>Dim. Ring (Mea)</rring>              
+            </equip>
+       </if>
+       <if eq_rring="Facility Ring">
+            <equip lock="true">
+             <rring>Facility Ring</rring>              
+            </equip>
+       </if>
+       <if eq_rring="Warp Ring">
+          <equip lock="true">
+             <rring>Warp Ring</rring>              
+          </equip>
+      </if>
+	</idlegear>
+
+	<preranged>
+	</preranged>
+	<midranged>
+	</midranged>
+	<premagic>
+			<equip set="Precast" />
+	</premagic>
+	<midmagic>
+	</midmagic>
+	<jobability>
+			<if ad_name="Warcry"><equip>
+				<head>Agoge Mask</head></equip>
+			</if>
+			<elseif ad_name="Blood Rage"><equip>
+				<body>Boii Lorica +1</body></equip>
+			</if>
+			<elseif ad_name="Berserk"><equip>
+				<body>Pummeler's Lorica</body></equip>
+			</if>
+			<elseif ad_name="Mighty Strikes"><equip>
+				<hands>Agoge Mufflers +1</hands></equip>
+			</if>
+			<elseif ad_name="Tomahawk"><equip>
+				<ammo>Thr. Tomahawk</ammo>
+				<feet>Agoge Calligae +1</feet></equip>
+			</if>
+	</jobability>
+	<weaponskill>
+		<if ad_name="Ukko's Fury"><equip set="Chan" /></if>
+		<if ad_name="Resolution|King's Justice"><equip set="Resolution" /></if>
+		<if ad_name="Upheaval"><equip set="Upheaval" /></if>
+		<if ad_name="Scourge"><equip set="Scourge" /></if>
+		<if e_time=">17.01|<6.59"><equip><lear>Lugra Earring +1</lear></equip></if>
+        <if p_tp="<3000"><equip><rear>Moonshade Earring</rear></equip></if>
+		<elseif e_time=">17.01|<6.59"><equip><rear>Lugra Earring</rear></equip></elseif>
+	</weaponskill>
+</ashitacast>

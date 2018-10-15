@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ashitacast>
+    <settings> <!--Contains settings specific to this xml, must be set to true/false to override default-->
+        <buffupdate>true</buffupdate> <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+        <statusupdate>true</statuspdate> <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+        <hpupdate>false</hpupdate> <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+        <autoupdate>true</autoupdate> <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+    </settings>
+<sets>
+          <!----------------------------------- Job Ability Sets ------------------------------------------>
+        <set name="Last Resort">
+            <feet>Fall. Sollerets +1</feet>
+            <back>Ankou's mantle</back>
+        </set>
+        <set name="Dark Seal">
+            <head>Fallen's Burgeonet +3</head>
+        </set>
+        <set name="Souleater">
+            <head>Igno. Burgeonet +1</head>
+        </set>
+        <set name="Blood Weapon">
+            <body>Fall. Cuirass +1</body>
+        </set>
+        <set name="Diabolic Eye">
+            <hands>Fall. Fin. Gaunt. +1</hands>
+        </set>
+        <set name="Weapon Bash">
+            <hands>Igno. Gauntlets +1</hands>
+        </set>
+        <set name="Nether Void">
+            <legs>Heath. Flanchard</legs>
+        </set>
+        <!-------------------------------------------- DT sets --------------------------------------------->
+       <set name="DT">
+            <ammo>Staunch tathlum</ammo>
+            <head>Sulevia's mask +1</head>
+            <neck>Twilight Torque</neck>
+            <lear>Hearty Earring</lear>
+            <rear>Flashward Earring</rear>
+            <body>Sulevia's Plate. +1</body>
+            <hands>Sulev. Gauntlets +1</hands>
+            <lring>Defending Ring</lring>
+            <rring>Shadow ring</rring>
+            <back>Moonbeam Cape</back>
+            <waist>Nierenschutz</waist>
+            <legs>Sulevi. Cuisses +1</legs>
+            <feet>Odyssean Greaves</feet>
+       </set>
+       <set name="test1">
+            <body>Lugra Cloak +1</body>
+            <hands>Eschite Gauntlets</hands>
+            <legs>Eschite Cuisses</legs>
+            <feet>Eschite Greaves</feet>
+        </set>
+        <set name="Move" baseset="DT">
+            <legs augment="D5132637441548">Carmine Cuisses</legs>
+        </set>
+       
+        <!---------------------------------------- Liberator Sets ------------------------------------------->
+        <set name="LibTP">
+            <ammo>Ginsen</ammo>
+            <head>Flam. Zucchetto +1</head>
+            <body augment="D5192850868671">Argosy Hauberk</body>
+            <hands>Flam. Manopolas +1</hands>
+            <legs augment="S286005992305322071">Odyssean Cuisses</legs>
+            <feet augment="D5192661221378">Argosy Sollerets +1</feet>
+            <neck>Lissome Necklace</neck>
+            <waist>Ioskeha Belt</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Brutal Earring</ear2>
+            <ring1>Flamma Ring</ring1>
+            <ring2>Petrov Ring</ring2>
+            <back augment="S255463270518575">Ankou's Mantle</back>
+        </set>
+        <set name="LibTPAM3"> <!----- STP +76, DA 6%, ACC 1110 ------>
+            <ammo>Ginsen</ammo>
+            <head augment="S1979578205600425">Valorous Mask</head>
+            <body augment="S373839415562921880707095">Valorous Mail</body>
+            <hands>Flam. Manopolas +1</hands>
+            <legs>Flamma Dirs +1</legs>
+            <feet augment="S125344737581079">Valorous Greaves</feet>
+            <neck>Lissome Necklace</neck>
+            <waist>Goading Belt</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Digni. Earring</ear2>
+            <ring1>Rajas Ring</ring1>
+            <ring2>Flamma Ring</ring2>
+            <back augment="S255463270518574">Ankou's Mantle</back>
+        </set>
+        <!--------------------------------------- Apocalypse|Ragnarok Sets ---------------------------------->
+        <set name="TPAM">
+            <ammo>Ginsen</ammo>
+            <head>Flam. Zucchetto +1</head>
+            <body augment="D5192850868671">Argosy Hauberk</body>
+            <hands>Flam. Manopolas +1</hands>
+            <legs augment="S286005992305322071">Odyssean Cuisses</legs>
+            <feet augment="D5192661221378">Argosy Sollerets +1</feet>
+            <neck>Lissome Necklace</neck>
+            <waist>Ioskeha Belt</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Brutal Earring</ear2>
+            <ring1>Flamma Ring</ring1>
+            <ring2>Petrov Ring</ring2>
+            <back augment="S255463270518575">Ankou's Mantle</back>
+        </set>
+        <set name="TP">
+            <ammo>Ginsen</ammo>
+            <head>Flam. Zucchetto +1</head>
+            <body augment="D5192850868671">Argosy Hauberk</body>
+            <hands>Flam. Manopolas +1</hands>
+            <legs augment="S286005992305322071">Odyssean Cuisses</legs>
+            <feet augment="D5192661221378">Argosy Sollerets +1</feet>
+            <neck>Lissome Necklace</neck>
+            <waist>Ioskeha Belt</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Brutal Earring</ear2>
+            <ring1>Flamma Ring</ring1>
+            <ring2>Petrov Ring</ring2>
+            <back augment="S255463270518575">Ankou's Mantle</back>
+        </set>
+        <!-------------------------------------------- Magic Sets ------------------------------------------->
+        <set name="MACC">
+            <ammo>Impatiens</ammo>
+            <head>Igno. Burgeonet +1</head>
+            <body>Ignominy Cuirass</body>
+            <hands>Ratri Gadlings</hands>
+            <legs augment="D5171236116500">Eschite Cuisses</legs>
+            <feet>Ratri Sollerets</feet>
+            <neck>Incanter's Torque</neck>
+            <waist>Sailfi Belt</waist>
+            <ear1>Gwati Earring</ear1>
+            <ear2>Pensee Earring</ear2>
+            <ring1>Stikini Ring</ring1>
+            <ring2>Stikini Ring</ring2>
+            <back>Chuparrosa Mantle</back>
+        </set>
+        <set name="Drain">
+            <ammo>Seeth. Bomblet +1</ammo>
+            <body>Lugra Cloak +1</body>
+            <hands augment="M1371">Fall. Fin. Gaunt. +1</hands>
+            <legs augment="D5171236116500">Eschite Cuisses</legs>
+            <feet>Ratri Sollerets</feet>
+            <neck>Incanter's Torque</neck>
+            <waist>Sailfi Belt</waist>
+            <ear1>Gwati Earring</ear1>
+            <ear2>Digni. Earring</ear2>
+            <ring1>Evanescence Ring</ring1>
+            <ring2>Stikini Ring</ring2>
+            <back augment="S159803806930969">Niht Mantle</back>
+        </set>
+        <set name="Absorb">
+            <ammo>Impatiens</ammo>
+            <head>Igno. Burgeonet +1</head>
+            <body>Ignominy Cuirass</body>
+            <hands augment="M1371">Fall. Fin. Gaunt. +1</hands>
+            <legs augment="D5171236116500">Eschite Cuisses</legs>
+            <feet>Ratri Sollerets</feet>
+            <neck>Incanter's Torque</neck>
+            <waist>Sailfi Belt</waist>
+            <ear1>Gwati Earring</ear1>
+            <ear2>Dark Earring</ear2>
+            <ring1>Evanescence Ring</ring1>
+            <ring2>Stikini Ring</ring2>
+            <back>Chuparrosa Mantle</back>
+        </set>
+        <set name="Dark">
+            <ammo>Impatiens</ammo>
+            <head>Igno. Burgeonet +1</head>
+            <body>Heathen's Cuirass</body>
+            <hands>Heath. Gauntlets</hands>
+            <legs augment="D5171236116500">Eschite Cuisses</legs>
+            <feet>Ratri Sollerets</feet>
+            <neck>Incanter's Torque</neck>
+            <waist>Sailfi Belt</waist>
+            <ear1>Gwati Earring</ear1>
+            <ear2>Dark Earring</ear2>
+            <ring1>Evanescence Ring</ring1>
+            <ring2>Stikini Ring</ring2>
+            <back augment="S159803806930969">Niht Mantle</back>
+        </set>
+        <set name="Precast">
+            <ammo>Impatiens</ammo>
+            <head augment="S2693174">Cizin Helm +1</head>
+            <body augment="S12324410993261222553">Odyss. Chestplate</body>
+            <hands augment="M1371">Fall. Fin. Gaunt. +1</hands>
+            <legs augment="D5171236116500">Eschite Cuisses</legs>
+            <feet augment="S2861334526568726649">Odyssean Greaves</feet>
+            <neck>Incanter's Torque</neck>
+            <waist>Sailfi Belt</waist>
+            <ear1>Loquac. Earring</ear1>
+            <ear2>Dark Earring</ear2>
+            <ring1>Evanescence Ring</ring1>
+            <ring2>Stikini Ring</ring2>
+            <back augment="S159803806930969">Niht Mantle</back>
+        </set>
+        <set name="Elemental">
+            <ammo>Seeth. Bomblet +1</ammo>
+            <head>Pixie Hairpin +1</head>
+            <body augment="M3335">Fall. Cuirass +1</body>
+            <hands augment="M1371">Fall. Fin. Gaunt. +1</hands>
+            <legs augment="D5171236116500">Eschite Cuisses</legs>
+            <feet>Igno. Sollerets +1</feet>
+            <neck>Sanctity Necklace</neck>
+            <waist>Sailfi Belt</waist>
+            <ear1>Hecate's Earring</ear1>
+            <ear2>Moldavite Earring</ear2>
+            <ring1>Stikini Ring</ring1>
+            <ring2>Stikini Ring</ring2>
+            <back>Chuparrosa Mantle</back>
+        </set>
+        <set name="Impact" baseset="Elemental">
+            <head></Head>
+            <body>Twilight cloak</body>
+           
+        </set>
+        <set name="ImpactFC" baseset="precast">
+            <head></Head>
+            <body>Twilight cloak</body>
+           
+        </set>
+        <!-------------------MISC Weaponskill set (Used For Unlisted Weapons)-------------------------------->
+        <set name="WS">
+            <ammo>Ginsen</ammo>
+            <head augment="S1980451834063126649">Valorous Mask</head>
+            <body augment="S373839415562921880707095">Valorous Mail</body>
+            <hands augment="S5497587128731928697">Odyssean Gauntlets</hands>
+            <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
+            <feet augment="S125344737581079">Valorous Greaves</feet>
+            <neck>Fotia Gorget</neck>
+            <waist>Fotia Belt</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Rajas Ring</ring1>
+            <ring2>Petrov Ring</ring2>
+            <back augment="S255463270418759">Ankou's Mantle</back>
+        </set>
+        <!---------------------------------------Scythe Weaponskill Sets ------------------------------------>
+        <set name="ScytheWS">
+            <ammo>Ginsen</ammo>
+            <head augment="S1980451834063126649">Valorous Mask</head>
+            <body>Ratri Plate</body>
+            <hands>Ratri Gadlings</hands>
+            <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
+            <feet>Ratri Sollerets</feet>
+            <neck>Fotia Gorget</neck>
+            <waist>Fotia Belt</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Rajas Ring</ring1>
+            <ring2>Petrov Ring</ring2>
+            <back augment="S255463270418759">Ankou's Mantle</back>
+        </set>
+        <set name="Insurgency">
+            <ammo>Ginsen</ammo>
+            <head augment="S1980451834063126649">Valorous Mask</head>
+            <body>Ratri Plate</body>
+            <hands>Ratri Gadlings</hands>
+            <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
+            <feet>Ratri Sollerets</feet>
+            <neck>Fotia Gorget</neck>
+            <waist>Fotia Belt</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Brutal Earring</ear2>
+            <ring1>Rajas Ring</ring1>
+            <ring2>Petrov Ring</ring2>
+            <back augment="S255463270418759">Ankou's Mantle</back>
+        </set>
+        <set name="Catastrophe">
+            <ammo>Ginsen</ammo>
+            <head augment="S1980451834063126649">Valorous Mask</head>
+            <body>Ratri Plate</body>
+            <hands>Ratri Gadlings</hands>
+            <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
+            <feet>Ratri Sollerets</feet>
+            <neck>Fotia Gorget</neck>
+            <waist>Fotia Belt</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Rajas Ring</ring1>
+            <ring2>Petrov Ring</ring2>
+            <back augment="S255463270418759">Ankou's Mantle</back>
+        </set>
+        <!----------------------------------------- GreatSword WS Sets ------------------------------------->
+        <set name="GreatSwordWS">
+            <ammo>Ginsen</ammo>
+            <head augment="S1980451834063126649">Valorous Mask</head>
+            <body augment="S373839415562921880707095">Valorous Mail</body>
+            <hands augment="S5497587128731928697">Odyssean Gauntlets</hands>
+            <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
+            <feet augment="S125344737581079">Valorous Greaves</feet>
+            <neck>Fotia Gorget</neck>
+            <waist>Fotia Belt</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Rajas Ring</ring1>
+            <ring2>Petrov Ring</ring2>
+            <back augment="S255463270418759">Ankou's Mantle</back>
+        </set>
+        <set name="Resolution">
+            <ammo>Seeth. Bomblet +1</ammo>
+            <head>Flam. Zucchetto +1</head>
+            <body augment="S373839415562921880707095">Valorous Mail</body>
+            <hands augment="S5497587128731928697">Odyssean Gauntlets</hands>
+            <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
+            <feet augment="D5192661221378">Argosy Sollerets +1</feet>
+            <neck>Fotia Gorget</neck>
+            <waist>Fotia Belt</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Brutal Earring</ear2>
+            <ring1>Rajas Ring</ring1>
+            <ring2>Petrov Ring</ring2>
+            <back augment="S255463270418759">Ankou's Mantle</back>
+        </set>
+        <set name="Torcleaver">
+            <ammo>Ginsen</ammo>
+            <head augment="S1980451834063126649">Valorous Mask</head>
+            <body augment="S373839415562921880707095">Valorous Mail</body>
+            <hands augment="S5497587128731928697">Odyssean Gauntlets</hands>
+            <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
+            <feet augment="S125344737581079">Valorous Greaves</feet>
+            <neck>Fotia Gorget</neck>
+            <waist>Fotia Belt</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Rajas Ring</ring1>
+            <ring2>Petrov Ring</ring2>
+            <back augment="S255463270418759">Ankou's Mantle</back>
+        </set>
+</sets>
+   
+<variables>
+        <var name="init">0</var>
+        <var name="DT">Off</var>
+        <var name="kite">Off</var>
+</variables>
+   
+<inputcommands>
+        <cmd input="/DT">   <!------------ Set a keybind to /DT to toggle easily ----------->
+            <if advanced="$DT=Off">
+                <setvar name="DT" value="On" />
+                <addtochat color="4">DT Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="DT" value="Off" />
+                <addtochat color="4">DT Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>
+        <cmd input="/kite">    <!-------------- Set a keybind to /kite to toggle easily ------------>
+            <if advanced="$kite=Off">
+                <setvar name="kite" value="On" />
+                <addtochat color="4">Kite Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="kite" value="Off" />
+                <addtochat color="4">Kite Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>
+       
+</inputcommands>
+   
+<jobability>
+        <if ad_name="Last Resort"><equip set="Last Resort"/></if>
+        <elseif ad_name="Dark Seal"><equip set="Dark Seal"/></elseif>
+        <elseif ad_name="Souleater"><equip set="Souleater"/></elseif>
+        <elseif ad_name="Blood Weapon"><equip set="Blood Weapon"/></elseif>
+        <elseif ad_name="Diabolic Eye"><equip set="Diabolic Eye"/></elseif>
+        <elseif ad_name="Weapon Bash"><equip set="Weapon Bash"/></elseif>
+        <elseif ad_name="Nether Void"><equip set="Nether Void"/></elseif>
+</jobability>
+   
+<premagic>
+        <if ad_name="Impact">
+                    <equip set="ImpactFC" />
+                </if>
+                <else>
+                    <equip set="Precast" />
+                </else>
+</premagic>
+   
+<midmagic>                          
+    <if ad_skill="DarkMagic">
+        <if ad_name="Drain*|Aspir*">
+            <equip set="Drain" />
+        </if>
+            <elseif ad_name="Absorb-*">
+                    <equip set="Absorb" />
+            </elseif>
+            <else>
+                    <equip set="Dark" />
+            </else>        
+        </if>
+        <if ad_skill="EnfeeblingMagic">
+                <equip set="MACC" />
+        </if>
+        <if ad_skill="ElementalMagic">
+             <if ad_name="Impact">
+                  <equip set="Impact" />
+             </if>
+             <else>
+                  <equip set="Elemental" />
+             </else>
+        </if>
+</midmagic>
+   
+<idlegear>
+        <!--<if advanced="$init=0">
+            <setvar name="init" value="1" />
+            <command>/exec Aqeeb/DRK.txt</command>
+        </if>-->
+       
+        <if p_status="engaged">
+            <if advanced="$DT=On">
+                <equip set="DT" />
+            </if>
+            <elseif>
+                <if advanced="$kite=On">
+                <equip set="Move" />
+                </if>
+                <elseif>
+                      <if eq_main="liberator"><equip set="LibTP" /></if>
+                      <elseif eq_main="Apocalypse|Ragnarok"><equip set="TP" /></elseif>
+                      <else><equip set="TP" /></else>
+                     <if buffactive="270|271|272|273">
+                      <if eq_main="Liberator"><equip set="LibTPAM3" /></if>
+                      <elseif eq_main="Apocalypse|Ragnarok"><equip set="TPAM" /></elseif>          
+                     </if>
+                </elseif>
+            </elseif>
+             
+         </if>
+         <else> <equip set="Move" /> </else>
+         
+          <if p_status="idle">
+            <if advanced="$DT=On">
+                <equip set="DT" />
+            </if>
+            <elseif>
+                <if advanced="$kite=On">
+                <equip set="Move" />
+                </if>
+            </elseif>
+         </if>
+         
+        <if eq_lring="Capacity Ring">
+         <equip lock="true">
+             <lring>Capacity Ring</lring>              
+         </equip>
+        </if>
+       
+        <if eq_lring="Trizek ring">
+         <equip lock="true">
+             <lring>Trizek ring</lring>              
+         </equip>
+        </if>
+       
+        <if eq_lring="Dim. Ring (Dem)">
+         <equip lock="true">
+             <lring>Dim. Ring (Dem)</lring>          
+         </equip>
+        </if>
+       
+        <if eq_lring="Facility Ring">
+            <equip lock="true">
+                <lring>Facility Ring</lring>              
+            </equip>
+        </if>
+       
+        <if eq_lring="Warp Ring">
+          <equip lock="true">
+             <lring>Warp Ring</lring>              
+          </equip>
+        </if>
+       
+</idlegear>
+   
+<weaponskill>
+       <if eq_main="Liberator|Apocalypse">
+         <if ad_name="Insurgency"><equip set="Insurgency" /></if>
+         <elseif ad_name="Catastrophe"><equip set="Catastrophe" /></elseif>
+         <elseif><equip set="ScytheWS" /></elseif>
+         </if>
+        <elseif eq_main="Ragnarok">
+         <if ad_name="Resolution"><equip set="Resolution" /></if>
+         <elseif ad_name="Torcleaver"><equip set="Torcleaver" /></elseif>
+         <elseif><equip set="GreatSwordWS" /></elseif>
+         </elseif>
+         <else><equip set="WS" /></else>
+</weaponskill>
+   
+   
+   
+    </ashitacast>
