@@ -9,204 +9,436 @@
 <sets>
           <!----------------------------------- Job Ability Sets ------------------------------------------>
         <set name="Last Resort">
-            <feet>Fall. Sollerets +1</feet>
-            <back>Ankou's mantle</back>
+		<!-- BIS 
+			<feet>Fall. Sollerets +1</feet>
+		-->
         </set>
         <set name="Dark Seal">
             <head>Fallen's Burgeonet +3</head>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         </set>
         <set name="Souleater">
             <head>Igno. Burgeonet +1</head>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->			
         </set>
         <set name="Blood Weapon">
             <body>Fall. Cuirass +1</body>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->			
         </set>
         <set name="Diabolic Eye">
-            <hands>Fall. Fin. Gaunt. +1</hands>
+            <hands>Fall. Fin. Gaunt. +3</hands>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         </set>
         <set name="Weapon Bash">
             <hands>Igno. Gauntlets +1</hands>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         </set>
         <set name="Nether Void">
             <legs>Heath. Flanchard</legs>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         </set>
         <!-------------------------------------------- DT sets --------------------------------------------->
        <set name="DT">
             <ammo>Staunch tathlum</ammo>
-            <head>Sulevia's mask +1</head>
-            <neck>Twilight Torque</neck>
+            <head>Sulevia's mask +2</head>
+            <neck>Loricate Torque +1</neck>
             <lear>Hearty Earring</lear>
             <rear>Flashward Earring</rear>
-            <body>Sulevia's Plate. +1</body>
-            <hands>Sulev. Gauntlets +1</hands>
+            <body>Sulevia's Plate. +2</body>
+            <hands>Sulev. Gauntlets +2</hands>
             <lring>Defending Ring</lring>
-            <rring>Shadow ring</rring>
+            <rring>Fortified ring</rring>
             <back>Moonbeam Cape</back>
-            <waist>Nierenschutz</waist>
-            <legs>Sulevi. Cuisses +1</legs>
-            <feet>Odyssean Greaves</feet>
+            <waist>Asklepain belt</waist>
+            <legs>Sulevi. Cuisses +2</legs>
+            <feet>Sulev. Leggings +2</feet>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
        </set>
-       <set name="test1">
-            <body>Lugra Cloak +1</body>
-            <hands>Eschite Gauntlets</hands>
-            <legs>Eschite Cuisses</legs>
-            <feet>Eschite Greaves</feet>
-        </set>
         <set name="Move" baseset="DT">
-            <legs augment="D5132637441548">Carmine Cuisses</legs>
+            <legs augment="D6232182625036">Carmine Cuisses +1</legs>
         </set>
-       
         <!---------------------------------------- Liberator Sets ------------------------------------------->
         <set name="LibTP">
             <ammo>Ginsen</ammo>
-            <head>Flam. Zucchetto +1</head>
-            <body augment="D5192850868671">Argosy Hauberk</body>
-            <hands>Flam. Manopolas +1</hands>
-            <legs augment="S286005992305322071">Odyssean Cuisses</legs>
-            <feet augment="D5192661221378">Argosy Sollerets +1</feet>
+            <head>Flam. Zucchetto +2</head>
+            <body augment="D6292446383039">Argosy Hauberk +1</body>
+            <hands>Flam. Manopolas +2</hands>
+            <legs augment="S549894151618818215">Odyssean Cuisses</legs>
+            <feet augment="D20925277801407">Argosy Sollerets +1</feet>
             <neck>Lissome Necklace</neck>
-            <waist>Ioskeha Belt</waist>
+            <waist>Sailfi Belt +1 +1</waist>
             <ear1>Cessance Earring</ear1>
             <ear2>Brutal Earring</ear2>
             <ring1>Flamma Ring</ring1>
             <ring2>Petrov Ring</ring2>
             <back augment="S255463270518575">Ankou's Mantle</back>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         </set>
         <set name="LibTPAM3"> <!----- STP +76, DA 6%, ACC 1110 ------>
             <ammo>Ginsen</ammo>
             <head augment="S1979578205600425">Valorous Mask</head>
             <body augment="S373839415562921880707095">Valorous Mail</body>
-            <hands>Flam. Manopolas +1</hands>
+            <hands>Flam. Manopolas +2</hands>
             <legs>Flamma Dirs +1</legs>
             <feet augment="S125344737581079">Valorous Greaves</feet>
             <neck>Lissome Necklace</neck>
             <waist>Goading Belt</waist>
             <ear1>Cessance Earring</ear1>
             <ear2>Digni. Earring</ear2>
-            <ring1>Rajas Ring</ring1>
+            <ring1>Regal ring</ring1>
             <ring2>Flamma Ring</ring2>
             <back augment="S255463270518574">Ankou's Mantle</back>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         </set>
         <!--------------------------------------- Apocalypse|Ragnarok Sets ---------------------------------->
         <set name="TPAM">
             <ammo>Ginsen</ammo>
-            <head>Flam. Zucchetto +1</head>
-            <body augment="D5192850868671">Argosy Hauberk</body>
-            <hands>Flam. Manopolas +1</hands>
-            <legs augment="S286005992305322071">Odyssean Cuisses</legs>
-            <feet augment="D5192661221378">Argosy Sollerets +1</feet>
+            <head>Flam. Zucchetto +2</head>
+            <body augment="D6292446383039">Argosy Hauberk +1</body>
+            <hands>Flam. Manopolas +2</hands>
+            <legs augment="S549894151618818215">Odyssean Cuisses</legs>
+            <feet augment="D20925277801407">Argosy Sollerets +1</feet>
             <neck>Lissome Necklace</neck>
-            <waist>Ioskeha Belt</waist>
+            <waist>Sailfi Belt +1 +1</waist>
             <ear1>Cessance Earring</ear1>
             <ear2>Brutal Earring</ear2>
             <ring1>Flamma Ring</ring1>
             <ring2>Petrov Ring</ring2>
             <back augment="S255463270518575">Ankou's Mantle</back>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         </set>
         <set name="TP">
             <ammo>Ginsen</ammo>
-            <head>Flam. Zucchetto +1</head>
-            <body augment="D5192850868671">Argosy Hauberk</body>
-            <hands>Flam. Manopolas +1</hands>
-            <legs augment="S286005992305322071">Odyssean Cuisses</legs>
-            <feet augment="D5192661221378">Argosy Sollerets +1</feet>
+            <head>Flam. Zucchetto +2</head>
+            <body augment="D6292446383039">Argosy Hauberk +1</body>
+            <hands>Flam. Manopolas +2</hands>
+            <legs augment="S549894151618818215">Odyssean Cuisses</legs>
+            <feet augment="D20925277801407">Argosy Sollerets +1</feet>
             <neck>Lissome Necklace</neck>
-            <waist>Ioskeha Belt</waist>
+            <waist>Sailfi Belt +1 +1</waist>
             <ear1>Cessance Earring</ear1>
             <ear2>Brutal Earring</ear2>
             <ring1>Flamma Ring</ring1>
             <ring2>Petrov Ring</ring2>
             <back augment="S255463270518575">Ankou's Mantle</back>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         </set>
         <!-------------------------------------------- Magic Sets ------------------------------------------->
         <set name="MACC">
             <ammo>Impatiens</ammo>
             <head>Igno. Burgeonet +1</head>
             <body>Ignominy Cuirass</body>
-            <hands>Ratri Gadlings</hands>
-            <legs augment="D5171236116500">Eschite Cuisses</legs>
-            <feet>Ratri Sollerets</feet>
-            <neck>Incanter's Torque</neck>
-            <waist>Sailfi Belt</waist>
+            <hands augment="S12534461552032418455">Valorous Mitts</hands>
+            <legs augment="M1372">Fall. Flanchard +3</legs>
+            <feet augment="S9016037759797726647">Valorous greaves</feet>
+            <neck>Voltsurge tourque</neck>
+            <waist>Sailfi Belt +1</waist>
             <ear1>Gwati Earring</ear1>
             <ear2>Pensee Earring</ear2>
-            <ring1>Stikini Ring</ring1>
-            <ring2>Stikini Ring</ring2>
+            <ring1>Kishar Ring</ring1>
+            <ring2>Kishar Ring</ring2>
             <back>Chuparrosa Mantle</back>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         </set>
         <set name="Drain">
             <ammo>Seeth. Bomblet +1</ammo>
             <body>Lugra Cloak +1</body>
             <hands augment="M1371">Fall. Fin. Gaunt. +1</hands>
-            <legs augment="D5171236116500">Eschite Cuisses</legs>
-            <feet>Ratri Sollerets</feet>
-            <neck>Incanter's Torque</neck>
-            <waist>Sailfi Belt</waist>
+            <legs augment="M1372">Fall. Flanchard +3</legs>
+            <feet augment="S9016037759797726647">Valorous greaves</feet>
+            <neck>Voltsurge tourque</neck>
+            <waist>Sailfi Belt +1</waist>
             <ear1>Gwati Earring</ear1>
             <ear2>Digni. Earring</ear2>
             <ring1>Evanescence Ring</ring1>
-            <ring2>Stikini Ring</ring2>
+            <ring2>Kishar Ring</ring2>
             <back augment="S159803806930969">Niht Mantle</back>
         </set>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         <set name="Absorb">
             <ammo>Impatiens</ammo>
             <head>Igno. Burgeonet +1</head>
             <body>Ignominy Cuirass</body>
             <hands augment="M1371">Fall. Fin. Gaunt. +1</hands>
-            <legs augment="D5171236116500">Eschite Cuisses</legs>
-            <feet>Ratri Sollerets</feet>
-            <neck>Incanter's Torque</neck>
-            <waist>Sailfi Belt</waist>
+            <legs augment="M1372">Fall. Flanchard +3</legs>
+            <feet augment="S9016037759797726647">Valorous greaves</feet>
+            <neck>Voltsurge tourque</neck>
+            <waist>Sailfi Belt +1</waist>
             <ear1>Gwati Earring</ear1>
             <ear2>Dark Earring</ear2>
             <ring1>Evanescence Ring</ring1>
-            <ring2>Stikini Ring</ring2>
+            <ring2>Kishar Ring</ring2>
             <back>Chuparrosa Mantle</back>
         </set>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         <set name="Dark">
             <ammo>Impatiens</ammo>
             <head>Igno. Burgeonet +1</head>
             <body>Heathen's Cuirass</body>
             <hands>Heath. Gauntlets</hands>
-            <legs augment="D5171236116500">Eschite Cuisses</legs>
-            <feet>Ratri Sollerets</feet>
-            <neck>Incanter's Torque</neck>
-            <waist>Sailfi Belt</waist>
+            <legs augment="M1372">Fall. Flanchard +3</legs>
+            <feet augment="S9016037759797726647">Valorous greaves</feet>
+            <neck>Voltsurge tourque</neck>
+            <waist>Sailfi Belt +1</waist>
             <ear1>Gwati Earring</ear1>
             <ear2>Dark Earring</ear2>
             <ring1>Evanescence Ring</ring1>
-            <ring2>Stikini Ring</ring2>
+            <ring2>Kishar Ring</ring2>
             <back augment="S159803806930969">Niht Mantle</back>
         </set>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         <set name="Precast">
             <ammo>Impatiens</ammo>
             <head augment="S2693174">Cizin Helm +1</head>
-            <body augment="S12324410993261222553">Odyss. Chestplate</body>
+            <body augment="D4097584665352">Carm. Sc. Mail +1</body>
             <hands augment="M1371">Fall. Fin. Gaunt. +1</hands>
-            <legs augment="D5171236116500">Eschite Cuisses</legs>
-            <feet augment="S2861334526568726649">Odyssean Greaves</feet>
-            <neck>Incanter's Torque</neck>
-            <waist>Sailfi Belt</waist>
+            <legs augment="M1372">Fall. Flanchard +3</legs>
+            <feet augment="D4107314417410">Carmine Greaves +1</feet>
+            <neck>Voltsurge tourque</neck>
+            <waist>Sailfi Belt +1</waist>
             <ear1>Loquac. Earring</ear1>
-            <ear2>Dark Earring</ear2>
+            <ear2>Etiolation Earring</ear2>
             <ring1>Evanescence Ring</ring1>
-            <ring2>Stikini Ring</ring2>
+            <ring2>Kishar Ring</ring2>
             <back augment="S159803806930969">Niht Mantle</back>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         </set>
         <set name="Elemental">
             <ammo>Seeth. Bomblet +1</ammo>
             <head>Pixie Hairpin +1</head>
             <body augment="M3335">Fall. Cuirass +1</body>
             <hands augment="M1371">Fall. Fin. Gaunt. +1</hands>
-            <legs augment="D5171236116500">Eschite Cuisses</legs>
+            <legs augment="M1372">Fall. Flanchard +3</legs>
             <feet>Igno. Sollerets +1</feet>
             <neck>Sanctity Necklace</neck>
-            <waist>Sailfi Belt</waist>
+            <waist>Sailfi Belt +1</waist>
             <ear1>Hecate's Earring</ear1>
             <ear2>Moldavite Earring</ear2>
-            <ring1>Stikini Ring</ring1>
-            <ring2>Stikini Ring</ring2>
+            <ring1>Kishar Ring</ring1>
+            <ring2>Kishar Ring</ring2>
             <back>Chuparrosa Mantle</back>
+		<!-- BIS
+			<head></head>
+			<hands></hands>
+			<body></body>
+			<legs></legs>
+			<neck></neck>
+			<back></back>
+			<feet></feet>
+			<lear></lear>
+			<rear></rear>
+			<lring></lring>
+			<rring></rring>
+			<ammo></ammo>
+		-->
         </set>
         <set name="Impact" baseset="Elemental">
             <head></Head>
@@ -221,7 +453,7 @@
         <!-------------------MISC Weaponskill set (Used For Unlisted Weapons)-------------------------------->
         <set name="WS">
             <ammo>Ginsen</ammo>
-            <head augment="S1980451834063126649">Valorous Mask</head>
+            <head augment="S12534461547727322551">Valorous Mask</head>
             <body augment="S373839415562921880707095">Valorous Mail</body>
             <hands augment="S5497587128731928697">Odyssean Gauntlets</hands>
             <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
@@ -230,60 +462,60 @@
             <waist>Fotia Belt</waist>
             <ear1>Cessance Earring</ear1>
             <ear2>Ishvara Earring</ear2>
-            <ring1>Rajas Ring</ring1>
+            <ring1>Regal ring</ring1>
             <ring2>Petrov Ring</ring2>
             <back augment="S255463270418759">Ankou's Mantle</back>
         </set>
         <!---------------------------------------Scythe Weaponskill Sets ------------------------------------>
         <set name="ScytheWS">
-            <ammo>Ginsen</ammo>
-            <head augment="S1980451834063126649">Valorous Mask</head>
-            <body>Ratri Plate</body>
-            <hands>Ratri Gadlings</hands>
+            <ammo>Knobkierrie</ammo>
+            <head augment="S12534461547727322551">Valorous Mask</head>
+            <body>Ignominy Cuirass +3</body>
+            <hands augment="S12534461552032418455">Valorous Mitts</hands>
             <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
-            <feet>Ratri Sollerets</feet>
+            <feet augment="S9016037759797726647">Valorous greaves</feet>
             <neck>Fotia Gorget</neck>
             <waist>Fotia Belt</waist>
             <ear1>Cessance Earring</ear1>
             <ear2>Ishvara Earring</ear2>
-            <ring1>Rajas Ring</ring1>
-            <ring2>Petrov Ring</ring2>
+            <ring1>Regal ring</ring1>
+            <ring2>Karieyh ring</ring2>
             <back augment="S255463270418759">Ankou's Mantle</back>
         </set>
         <set name="Insurgency">
-            <ammo>Ginsen</ammo>
-            <head augment="S1980451834063126649">Valorous Mask</head>
-            <body>Ratri Plate</body>
-            <hands>Ratri Gadlings</hands>
+            <ammo>Knobkierrie</ammo>
+            <head augment="S12534461547727322551">Valorous Mask</head>
+            <body>Ignominy Cuirass +3</body>
+            <hands augment="S12534461552032418455">Valorous Mitts</hands>
             <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
-            <feet>Ratri Sollerets</feet>
+            <feet augment="S9016037759797726647">Valorous greaves</feet>
             <neck>Fotia Gorget</neck>
             <waist>Fotia Belt</waist>
             <ear1>Cessance Earring</ear1>
             <ear2>Brutal Earring</ear2>
-            <ring1>Rajas Ring</ring1>
-            <ring2>Petrov Ring</ring2>
+            <ring1>Regal ring</ring1>
+            <ring2>Karieyh ring</ring2>
             <back augment="S255463270418759">Ankou's Mantle</back>
         </set>
         <set name="Catastrophe">
-            <ammo>Ginsen</ammo>
-            <head augment="S1980451834063126649">Valorous Mask</head>
-            <body>Ratri Plate</body>
-            <hands>Ratri Gadlings</hands>
+            <ammo>Knobkierrie</ammo>
+            <head augment="S12534461547727322551">Valorous Mask</head>
+            <body>Ignominy Cuirass +3</body>
+            <hands augment="S12534461552032418455">Valorous Mitts</hands>
             <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
-            <feet>Ratri Sollerets</feet>
+            <feet augment="S9016037759797726647">Valorous greaves</feet>
             <neck>Fotia Gorget</neck>
             <waist>Fotia Belt</waist>
             <ear1>Cessance Earring</ear1>
             <ear2>Ishvara Earring</ear2>
-            <ring1>Rajas Ring</ring1>
-            <ring2>Petrov Ring</ring2>
+            <ring1>Regal ring</ring1>
+            <ring2>Karieyh ring</ring2>
             <back augment="S255463270418759">Ankou's Mantle</back>
         </set>
         <!----------------------------------------- GreatSword WS Sets ------------------------------------->
         <set name="GreatSwordWS">
             <ammo>Ginsen</ammo>
-            <head augment="S1980451834063126649">Valorous Mask</head>
+            <head augment="S12534461547727322551">Valorous Mask</head>
             <body augment="S373839415562921880707095">Valorous Mail</body>
             <hands augment="S5497587128731928697">Odyssean Gauntlets</hands>
             <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
@@ -292,28 +524,28 @@
             <waist>Fotia Belt</waist>
             <ear1>Cessance Earring</ear1>
             <ear2>Ishvara Earring</ear2>
-            <ring1>Rajas Ring</ring1>
+            <ring1>Regal ring</ring1>
             <ring2>Petrov Ring</ring2>
             <back augment="S255463270418759">Ankou's Mantle</back>
         </set>
         <set name="Resolution">
             <ammo>Seeth. Bomblet +1</ammo>
-            <head>Flam. Zucchetto +1</head>
+            <head>Flam. Zucchetto +2</head>
             <body augment="S373839415562921880707095">Valorous Mail</body>
             <hands augment="S5497587128731928697">Odyssean Gauntlets</hands>
             <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
-            <feet augment="D5192661221378">Argosy Sollerets +1</feet>
+            <feet augment="D20925277801407">Argosy Sollerets +1</feet>
             <neck>Fotia Gorget</neck>
             <waist>Fotia Belt</waist>
             <ear1>Cessance Earring</ear1>
             <ear2>Brutal Earring</ear2>
-            <ring1>Rajas Ring</ring1>
+            <ring1>Regal ring</ring1>
             <ring2>Petrov Ring</ring2>
             <back augment="S255463270418759">Ankou's Mantle</back>
         </set>
         <set name="Torcleaver">
             <ammo>Ginsen</ammo>
-            <head augment="S1980451834063126649">Valorous Mask</head>
+            <head augment="S12534461547727322551">Valorous Mask</head>
             <body augment="S373839415562921880707095">Valorous Mail</body>
             <hands augment="S5497587128731928697">Odyssean Gauntlets</hands>
             <legs augment="S54984461238340806971415">Odyssean Cuisses</legs>
@@ -322,7 +554,7 @@
             <waist>Fotia Belt</waist>
             <ear1>Cessance Earring</ear1>
             <ear2>Ishvara Earring</ear2>
-            <ring1>Rajas Ring</ring1>
+            <ring1>Regal ring</ring1>
             <ring2>Petrov Ring</ring2>
             <back augment="S255463270418759">Ankou's Mantle</back>
         </set>
